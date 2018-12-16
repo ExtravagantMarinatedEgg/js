@@ -91,7 +91,7 @@
 							</div>-->
 						</div>
 
-						<div id="zjck"><span onclick="zjck()" class="right blueFont">增加乘客</span></div>
+						<div id="zjck"><span onclick="zjck()" class="right blueFont pointer">增加乘客</span></div>
 					</div>
 					<div>
 						<div class="head"><span class="headtext">联系人信息</span></div>
@@ -102,7 +102,7 @@
 										<span class="xz">联系人：</span><input class="input"></input>
 									</li>
 									<li>
-										<span class="xz">手机号码：</span><input class="input"></input>
+										<span class="xz">手机号码：</span><input class="input" onblur="checkPhone(this)"></input><span class="smallFont redFont"></span>
 									</li>
 									<li>
 										<span class="xz">联系电话：</span><input class="input"></input>
@@ -111,7 +111,7 @@
 										<span class="xz">传真号码：</span><input class="input"></input>
 									</li>
 									<li>
-										<span class="xz">E-mail：</span><input class="input"></input>
+										<span class="xz">E-mail：</span><input class="input" onblur="eMail(this)"></input><span class="smallFont redFont"></span>
 									</li>
 									<li>
 										<span class="xz">联系地址：</span><input class="input"></input>
@@ -122,8 +122,8 @@
 					</div>
 					<div class="line2"><span></span></div>
 					<div class="next">
-						<input id="syb" type="button" value="上一步" />
-						<input id="xyb" type="button" value="下一步" />
+						<input id="syb" class="pointer" type="button" value="上一步" />
+						<input id="xyb" class="pointer" type="button" value="下一步" />
 					</div>
 				</div>
 				<div class="left txts" style="background-color: #FF7D13;">

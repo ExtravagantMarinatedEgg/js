@@ -5,20 +5,25 @@
 		<meta charset="UTF-8">
 		<title></title>
 		<script>
-			function csl() {
-				var ckq = document.getElementById('cl');
-				var node = ckq.nextSibling;
-				oDiv = document.createElement('div');
-				oDiv.innerHTML = '<div class="cjr kq"><div class="bt">第一位乘机人：<b>刘某某</b><span class="right smallFont">添加常用姓名 <b style="color: red;">X</b></span></div><div class="tj"><ul><li><span class="xz">购票类型：</span><select class="input"><option value="" disabled selected hidden>成人票</option></select><span class="smallFont">$2200/成人（含税费）<span class="blueFont smallFont">退改签</span></span></li><li><span class="xz">姓&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;名：</span><input placeholder="刘某某 " class="input"></input><span class="blueFont smallFont">填写说明</span></li><li><span class="xz">护照类型：</span><select class="input"><option value=" " disabled selected hidden>成人票</option></select></li><li><span class="xz">证件号码：</span><input placeholder="120120120120120120" class="input"></input></li></ul></div></div>'
-				ckq.parentNode.insertBefore(oDiv, node)
-				node = oDiv.nextSibling;
-				alert("66666");
+			function checkUsername(user) {
+				alert(user.value)
+				user.nextSibling.innerText=user.value;
+//				var cl = document.getElementById("cl");
+//				if (/(^\d{15}$)|(^\d{18}$)|(^\d{17}(\d|X|x)$)/.test(document.getElementById("username").value)){
+////      			cl.innerText("对了");
+//      			alert("对了");
+//	        	} else {
+////	        		cl.innerText("錯了");
+//	        		alert("错了")
+//	        	}
 			}
 		</script>
 	</head>
 
 	<body>
-		<div id="cl" onclick="csl()">66666</div>
+		<div id="user_name">
+			邮箱：<input id="username" type="text" name="username" onblur="checkUsername(this)" /><span id="cl">大苏打</span>
+		</div>
 	</body>
 
 </html>

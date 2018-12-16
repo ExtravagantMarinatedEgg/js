@@ -83,6 +83,16 @@
 	position: relative;
 	left: 5px;
 }
+.blueFont {
+	color: #0000FF;
+	position: relative;
+	left: 5px;
+}
+.redFont {
+	color: red;
+	position: relative;
+	left: 5px;
+}
 .smallFont {
 	font-size: small;
 }
@@ -174,6 +184,9 @@
 }
 .bq p {
 	margin: 5px auto;
+}
+.pointer {
+	cursor: pointer;
 }
 .zn {
 	width: 1152px;
