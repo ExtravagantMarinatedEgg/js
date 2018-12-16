@@ -4,7 +4,7 @@
 }
 
 #sub {
-	background-color: cyan;
+	background-color: #FFFFFF;
 	/*height: 900px;*/
 	height: auto;
 	width: 1100px;
@@ -34,10 +34,11 @@
 }
 
 .head {
-	background-color: #ff0000;
+	background-color: cyan;
 	line-height: 35px;
 	width: 810px;
 	margin: 0 auto;
+	border: 1px solid #CCCCCC;
 }
 /*#wc {
 	clear:both;
@@ -56,7 +57,7 @@
 .kq {
 	width: 750px;
 	height: 50px;
-	background-color: blue;
+	/*background-color: blue;*/
 	margin: 20px auto;
 }
 .ts {
@@ -76,7 +77,7 @@
 	height: 180px;
 	background-color: #FFF;
 	border: 2px solid #CCCCCC;
-	padding: 7px;
+	padding: 0px;
 }
 .blueFont {
 	color: #0000FF;
@@ -135,7 +136,7 @@
 .next {
 	width: 750px;
 	line-height: 30px;
-	background-color: #0000FF;
+	/*background-color: #0000FF;*/
 	margin: 0 auto;
 }
 .next input {
@@ -152,7 +153,7 @@
 	left: 350px;
 }
 #zjck {
-	background-color: blueviolet;
+	/*background-color: blueviolet;*/
 	height: 30px;
 	width: 750px;
 	margin: 0 auto;
@@ -188,9 +189,13 @@
 .pointer {
 	cursor: pointer;
 }
+.kt {
+	position:relative;
+	left: 3px;
+}
 .zn {
 	width: 1152px;
-	background-color: #8A2BE2;
+	/*background-color: #8A2BE2;*/
 	height: 150px;
 	margin: 0 auto;
 	border: 2px solid #CCCCCC;
@@ -201,6 +206,7 @@
 }
 .bt {
 	background-color: #DDDDDD;
+	line-height: 30px;
 }
 li {
 	padding: 5px;
