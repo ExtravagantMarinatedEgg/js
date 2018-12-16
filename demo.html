@@ -4,30 +4,18 @@
 	<head>
 		<meta charset="UTF-8">
 		<title></title>
-		<link rel="stylesheet" href="css/yiyang.css" />
-		<style>
-			.aaa {
-				width: 300px;
-			}
-		</style>
 	</head>
 
 	<body>
-		<div id="container" class="aaa">
+		<div id="container">
 			<input type="text" id="test"><button id="add">添加</button>
 		</div>
-		<div style="width: 200px; height: 200px; background-color: #FF7D13;">
-			<span>12345555</span>
+		<div>
 			<p>tetse</p>
 		</div>
 		<script type="text/javascript">
 			var add = document.getElementById('add');
 			var container = document.getElementById('container');
-			
-			
-//			*******
-			var spp = getComputedStyle(container,null).width;
-			alert(spp)
 			var node = container.nextSibling;
 			add.onclick = function() {
 				oDiv = document.createElement('div');
